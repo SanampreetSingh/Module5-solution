@@ -10,7 +10,8 @@
   };
 
   var showLoading = function (selector) {
-    var html = "<div class='text-center'><img src='images/ajax-loader.gif'></div>";
+var html = "<div class='text-center'><img src='ajax-loader.gif'></div>";
+
     insertHtml(selector, html);
   };
 
